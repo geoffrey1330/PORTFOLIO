@@ -5,15 +5,14 @@ import "../footer/footer.css";
 import {
   FiPhoneCall,
   FiMail,
-  FiYoutube,
+  
   FiTwitter,
   FiFacebook,
 } from "react-icons/fi";
 import { FaInstagram, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import foterLogo from "../../../images/GEOFFREY1.png";
 
-const codeIcon = <FontAwesomeIcon color="blue" icon={faCode} />;
-const heartIcon = <FontAwesomeIcon color="red" icon={faHeart} />;
+
 
 const Footer = ({ darkMode }) => {
   return (
@@ -86,8 +85,10 @@ const Footer = ({ darkMode }) => {
             <p className="menu-item-header">Contact</p>
             <ul>
               <li>
+              <a target="_blank" href="mailto:israelgeoffrey13@gmail.com">
                 <FiMail />
-                israelgeoffrey13@gmail.com
+                  israelgeoffrey13@gmail.com
+                  </a>
               </li>
               <li>
                 <a target="_blank">
